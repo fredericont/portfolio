@@ -3,7 +3,7 @@
 Bem-vindo(a) ao repositório do meu portfólio! Esta é uma página que apresenta minha trajetória profissional. Aqui, você encontrará informações sobre minhas qualificações, experiências, ferramentas na qual tenho experiência e formas de entrar em contato comigo.
 
 ## 📸 Visualização
-![Captura de tela do portfólio]((https://imgur.com/a/KHURHQT))
+![Captura de tela do portfólio](https://imgur.com/a/KHURHQT)
 
 ## 📖 Sobre o Projeto
 
