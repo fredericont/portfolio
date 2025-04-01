@@ -21,12 +21,14 @@ Este portfólio contém as seguintes seções:
 - **JavaScript**
 
 ## 📂 Estrutura do Repositório
+```txt
 portfolio/
 │── index.html
 │── css/
 │   └── styles.css
 └── js/
     └── main.js
+```
 
 ## 🚀 Como Visualizar o Portfólio
 1. **Clone o repositório**:
