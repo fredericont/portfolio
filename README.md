@@ -26,6 +26,8 @@ portfolio/
 │── index.html
 │── css/
 │   └── styles.css
+│── img/
+│   └── perfil-git.png
 └── js/
     └── main.js
 ```
