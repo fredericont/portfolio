@@ -28,11 +28,8 @@ portfolio/
 │   └── styles.css
 │── img/
 │   └── perfil-git.png
+│── docs/
+│   └── Curriculo_Frederico.pdf
 └── js/
     └── main.js
 ```
-
-## 🚀 Como Visualizar o Portfólio
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/[seu-usuario]/[nome-do-repositorio].git
