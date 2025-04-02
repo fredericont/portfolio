@@ -385,6 +385,33 @@ footer {
     background: var(--accent-color-2);
 }
 
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.download-btn {
+    background: transparent;
+    border: 2px solid var(--accent-color);
+}
+
+.download-btn:hover {
+    background: var(--accent-color);
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 480px) {
+    .cta-buttons {
+        justify-content: center;
+    }
+    
+    .cta-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 /* Responsividade */
 @media (max-width: 968px) {
     .hero-content {
