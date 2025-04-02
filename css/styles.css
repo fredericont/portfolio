@@ -47,6 +47,7 @@ nav {
 }
 
 .logo a {
+    font-family: 'Orbitron', sans-serif;
     font-size: 1.8rem;
     font-weight: 700;
     color: var(--accent-color);
@@ -117,6 +118,21 @@ nav {
     -webkit-text-fill-color: transparent;
     margin-bottom: 2rem;
     line-height: 1.2;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.download-btn {
+    background: transparent;
+    border: 2px solid var(--accent-color);
+}
+
+.download-btn:hover {
+    background: var(--accent-color);
 }
 
 .hero-image {
@@ -302,14 +318,6 @@ nav {
     text-align: center;
 }
 
-.logo a {
-    font-family: 'Audiowide', cursive;
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: var(--accent-color);
-    text-decoration: none;
-}
-
 .tool-item {
     display: flex;
     flex-direction: column;
@@ -385,33 +393,6 @@ footer {
     background: var(--accent-color-2);
 }
 
-.cta-buttons {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
-
-.download-btn {
-    background: transparent;
-    border: 2px solid var(--accent-color);
-}
-
-.download-btn:hover {
-    background: var(--accent-color);
-}
-
-/* Ajuste para telas menores */
-@media (max-width: 480px) {
-    .cta-buttons {
-        justify-content: center;
-    }
-    
-    .cta-button {
-        width: 100%;
-        text-align: center;
-    }
-}
-
 /* Responsividade */
 @media (max-width: 968px) {
     .hero-content {
@@ -474,5 +455,20 @@ footer {
 
     .hero-image img {
         max-width: 250px;
+    }
+
+    .cta-buttons {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    
+    .cta-button {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .cta-button:last-child {
+        margin-bottom: 0;
     }
 }
