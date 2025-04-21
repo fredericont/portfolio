@@ -54,4 +54,20 @@ document.addEventListener('DOMContentLoaded', function() {
     // Verificar scroll
     window.addEventListener('scroll', checkScroll);
     checkScroll(); // Verificar posição inicial
+
+    // Função para copiar email
+    function copyEmail() {
+        const email = 'aspdeassis@gmail.com';
+        navigator.clipboard.writeText(email).then(() => {
+            const emailLink = document.querySelector('.email-copy');
+            emailLink.classList.add('copied');
+            
+            // Remove a classe após 2 segundos
+            setTimeout(() => {
+                emailLink.classList.remove('copied');
+            }, 2000);
+        }).catch(err => {
+            console.error('Erro ao copiar email:', err);
+        });
+    }
 });

@@ -443,10 +443,36 @@ nav {
     color: #fff;
     font-size: 2.5rem;
     transition: color 0.3s ease;
+    position: relative;
 }
 
 .social-links a:hover {
     color: var(--accent-color);
+}
+
+.email-copy {
+    cursor: pointer;
+}
+
+.copy-feedback {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--accent-color);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.email-copy.copied .copy-feedback {
+    opacity: 1;
+    visibility: visible;
 }
 
 footer {
