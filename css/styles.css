@@ -351,18 +351,20 @@ nav {
 /* Contato */
 .contact-content {
     text-align: center;
+    padding: 2rem 0;
 }
 
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    align-items: center;
+    gap: 3rem;
 }
 
 .social-links a {
-    font-size: 2rem;
-    color: var(--text-primary);
-    transition: color 0.3s;
+    color: #fff;
+    font-size: 2.5rem;
+    transition: color 0.3s ease;
 }
 
 .social-links a:hover {
@@ -373,8 +375,9 @@ nav {
 footer {
     text-align: center;
     padding: 2rem;
-    background: var(--bg-secondary);
+    background: var(--bg-primary);
     color: var(--text-secondary);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 footer p {
