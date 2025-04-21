@@ -1,17 +1,27 @@
 // Função para copiar email
 function copyEmail() {
     const email = 'aspdeassis@gmail.com';
-    navigator.clipboard.writeText(email).then(() => {
-        const emailLink = document.querySelector('.email-copy');
-        emailLink.classList.add('copied');
-        
-        // Remove a classe após 2 segundos
-        setTimeout(() => {
-            emailLink.classList.remove('copied');
-        }, 2000);
-    }).catch(err => {
-        console.error('Erro ao copiar email:', err);
-    });
+    
+    // Cria um elemento temporário
+    const tempInput = document.createElement('input');
+    tempInput.value = email;
+    document.body.appendChild(tempInput);
+    
+    // Seleciona e copia
+    tempInput.select();
+    document.execCommand('copy');
+    
+    // Remove o elemento temporário
+    document.body.removeChild(tempInput);
+    
+    // Feedback visual
+    const emailLink = document.querySelector('.email-copy');
+    emailLink.classList.add('copied');
+    
+    // Remove a classe após 2 segundos
+    setTimeout(() => {
+        emailLink.classList.remove('copied');
+    }, 2000);
 }
 
 document.addEventListener('DOMContentLoaded', function() {
