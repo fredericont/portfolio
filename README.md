@@ -13,6 +13,7 @@ Este portfólio contém as seguintes seções:
 - **Qualificações**
 - **Experiências**
 - **Ferramentas**
+- - **Projetos**
 - **Meus Contatos**
 
 ## 🛠️ Tecnologias Utilizadas
