@@ -1,10 +1,9 @@
-# Portfólio - Analista & Engenheiro de Dados
+# Portfólio - Engenheiro & Ciêntista de Dados
 
 Bem-vindo(a) ao repositório do meu portfólio! Esta é uma página que apresenta minha trajetória profissional. Aqui, você encontrará informações sobre minhas qualificações, experiências, ferramentas na qual tenho experiência e formas de entrar em contato comigo.
 
 ## 📸 Visualização
-![image](https://github.com/user-attachments/assets/d1eddd4e-34e1-46e7-a382-6ae6100f4be2)
-
+![image](https://github.com/user-attachments/assets/add04a1c-1e0d-4f3a-a2d1-a55d85c08fdd)
 
 ## 📖 Sobre o Projeto
 
